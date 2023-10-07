@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
+import dotenv from "dotenv";
 
-const API_KEY = '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';
+dotenv.config()
+
+const API_KEY = process.env.API_KEY;
 const API_URL = 'https://api.openai.com/v1/chat/completions';
 
 
