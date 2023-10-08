@@ -1,0 +1,41 @@
+.msg-icn {
+    border-radius: 50px;
+    /* display: inline-block;
+    position: relative;
+    padding:  10px 20px;
+    color: #fff;
+    box-sizing: border-box;
+    /* max-width: 300px;
+    min-width: 80px;
+    min-height: 38px;  */
+  }
+  .msg-icn:after {
+    pointer-events: none; /* Add this to make pseudo-elements non-interactable */
+  }
+  .msg-icn:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    box-sizing: border-box;
+    clip-path: polygon(0% 105%, 0% 0%, 105% 0%, 105% 105%, 43px 105%, 43px 80%, 21px 80%, 21px 105%);
+  }
+  .msg-icn:after {
+    
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 30px;
+    background: #000000;
+    
+    top: calc(100% - 1px);
+    right: 35px;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 0% 100%, 100% 0%, calc(100% - 2px) 0, 1px calc(100% - 2px), 1px 0);
+  }

@@ -99,12 +99,12 @@ function OpenAI(): JSX.Element {
   };
 
   return (
-    <div className="bg-white text-black min-h-screen flex items-center justify-center">
+    <div className="h-1/2 w-1/2 left-1/4 absolute  bg-white text-black  flex items-center justify-center ">
       <div className="lg:w-1/2 2xl:w-1/3 p-8 rounded-md bg-gray-100">
         <h1 className="text-3xl font-bold mb-6">
           welcome into Interview Session
         </h1>
-        <div className="mt-4 h-48 overflow-y-auto">
+        <div className="mt-4 h-40 overflow-y-auto">
           <p className="text-gray-500 text-sm mb-2">Generated Text</p>
           <p className="whitespace-pre-line" id="resultText">
             {generatedText}
