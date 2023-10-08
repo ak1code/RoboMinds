@@ -1,11 +1,8 @@
 import  { useState } from 'react';
-import dotenv from "dotenv";
 
-dotenv.config()
 
-const API_KEY = process.env.API_KEY;
 const API_URL = 'https://api.openai.com/v1/chat/completions';
-
+const API_KEY = "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"
 
 function OpenAI(): JSX.Element {
   const [generatedText, setGeneratedText] = useState<string>('');
@@ -105,7 +102,7 @@ function OpenAI(): JSX.Element {
     <div className="bg-white text-black min-h-screen flex items-center justify-center">
       <div className="lg:w-1/2 2xl:w-1/3 p-8 rounded-md bg-gray-100">
         <h1 className="text-3xl font-bold mb-6">
-          Streaming OpenAI API Completions in JavaScript
+          welcome into Interview Session
         </h1>
         <div className="mt-4 h-48 overflow-y-auto">
           <p className="text-gray-500 text-sm mb-2">Generated Text</p>

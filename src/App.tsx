@@ -11,10 +11,10 @@ function App() {
 
   return (
     <>
-      {/* <AllRoute/> */}
+      <AllRoute/>
         {/* <InterviewSimulation interviewType="MERN" />
         <InterviewSelection /> */}
-       <OpenAI/>
+       {/* <OpenAI/> */}
     </>
   )
 }
