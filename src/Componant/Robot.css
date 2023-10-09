@@ -1,0 +1,24 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Push content to the bottom of the viewport */
+    align-items: center; /* Center horizontally */
+     min-height: 100vh; /*Ensure the container takes at least the viewport height */
+  }
+  
+  /* .robot_start {
+    /* Your existing styles for the image container 
+    border: 1px solid red;
+  } */
+  
+  .small-image {
+    width: 250px; /* Adjust the width to your desired size */
+    /* You can also add other styles like height, margin, etc., if needed */
+  }
+  
+  .paused {
+    /* Add styles to pause or hide the GIF */
+    animation-play-state: paused;
+    /* You can also set visibility to hidden or opacity to 0 if you want to hide it completely */
+  }
+  

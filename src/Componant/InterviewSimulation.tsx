@@ -46,7 +46,7 @@ function InterviewSimulation({ interviewType }: InterviewSimulationProps) {
   };
 
   return (
-    <div>
+    <div >
       {questions.length > 0 ? (
         <div>
           <h2>Interview Simulation: {interviewType}</h2>
