@@ -1,4 +1,4 @@
-import OpenAI from "./openAI";
+
 import { useNavigate } from "react-router-dom";
 
 function InterviewSelection() {
