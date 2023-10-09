@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-end; /* Push content to the bottom of the viewport */
     align-items: center; /* Center horizontally */
-     min-height: 100vh; /*Ensure the container takes at least the viewport height */
+     min-height: 90vh; /*Ensure the container takes at least the viewport height */
   }
   
   /* .robot_start {
