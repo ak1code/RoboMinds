@@ -1,11 +1,13 @@
 
 import { useNavigate } from "react-router-dom";
 import "./just.css"
+import Robot from "./Robot";
 
 function InterviewSelection() {
   const navigate=useNavigate()
   return (
-    
+    <>
+   
     <div className="h-1/2 w-1/3 left-1/3 bg-gray-100 absolute transform  flex items-center justify-center  msg-icn" style={{ zIndex: 2}}>
       <div className="bg-white p-6 rounded shadow-md">
         <h2 className="text-2xl font-semibold mb-4">Choose Your Interview Type</h2>
@@ -21,8 +23,10 @@ function InterviewSelection() {
           </button>
         </div>
       </div>
+       
     </div>
-   
+    <Robot/>
+    </>
   );
 }
 

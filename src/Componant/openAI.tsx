@@ -99,8 +99,8 @@ function OpenAI(): JSX.Element {
   };
 
   return (
-    <div className="h-1/2 w-1/2 left-1/4 absolute  bg-white text-black  flex items-center justify-center ">
-      <div className="lg:w-1/2 2xl:w-1/3 p-8 rounded-md bg-gray-100">
+    <div className="min-h-screen bg-white text-black  flex items-center justify-center ">
+      <div className=" p-8 rounded-md bg-gray-100">
         <h1 className="text-3xl font-bold mb-6">
           welcome into Interview Session
         </h1>
